@@ -7,7 +7,7 @@ import java.lang.annotation.*;
  * 2019/7/28 13:25
  */
 
-@Target({ElementType.FIELD, ElementType.TYPE})
+@Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface YLWRequestMapping {
