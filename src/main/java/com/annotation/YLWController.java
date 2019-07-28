@@ -1,4 +1,4 @@
-package annotation;
+package com.annotation;
 
 import java.lang.annotation.*;
 
@@ -7,10 +7,10 @@ import java.lang.annotation.*;
  * 2019/7/28 13:25
  */
 
-@Target({ElementType.TYPE})
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface YLWService {
+public @interface YLWController {
 
     String value() default "";
 }

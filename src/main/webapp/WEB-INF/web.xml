@@ -5,4 +5,14 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
+  <servlet>
+    <servlet-name>ylwDispatcherServlet</servlet-name>
+    <servlet-class>com.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ylwDispatcherServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
 </web-app>

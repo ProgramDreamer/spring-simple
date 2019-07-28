@@ -1,17 +1,15 @@
-package controller;
+package com.controller;
 
-import annotation.YLWController;
-import annotation.YLWQualifier;
-import annotation.YLWRequestMapping;
-import annotation.YLWRequestParam;
-import service.MyService;
-import service.impl.MyServiceImpl;
+import com.annotation.YLWController;
+import com.annotation.YLWQualifier;
+import com.annotation.YLWRequestMapping;
+import com.annotation.YLWRequestParam;
+import com.service.MyService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.io.StringReader;
 
 /**
  * Created by where

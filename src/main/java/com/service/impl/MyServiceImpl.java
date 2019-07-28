@@ -1,7 +1,7 @@
-package service.impl;
+package com.service.impl;
 
-import annotation.YLWService;
-import service.MyService;
+import com.annotation.YLWService;
+import com.service.MyService;
 
 /**
  * Created by where
